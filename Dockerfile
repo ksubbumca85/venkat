@@ -1,4 +1,4 @@
-FROM ace-only:latest
+FROM ibmcom/ace:latest
 
 COPY bars_aceonly /home/aceuser/bars
 RUN ace_compile_bars.sh
